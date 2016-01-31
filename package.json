@@ -4,7 +4,7 @@
   "description": "My solutions to excercises of the book 'Eloquent Javascript'",
   "main": "index.js",
   "scripts": {
-    "run": "node index.js"
+    "start": "node index.js"
   },
   "author": "Enrico Deleo",
   "license": "GPL3"
