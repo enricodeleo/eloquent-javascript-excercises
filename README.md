@@ -17,4 +17,8 @@ Try including a script in a page or copy/paste the functions within a javascript
 
 ## Nodejs
 
-You can run the script in a shell typing `node chapter/1/1.js`
+You can run the script in a shell typing, for example
+
+ ```bash
+ node chapters/1/1.js
+ ```
