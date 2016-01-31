@@ -64,4 +64,4 @@ console.log('');
 console.log('Excercise #3');
 console.log('');
 
-console.log(range(5, 2, -1));
+console.log(sum(range(1, 10)));
