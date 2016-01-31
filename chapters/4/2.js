@@ -21,9 +21,13 @@
 function reverseArray(array) {
   var _inversedArray = [];
 
+  console.time('reverseArray');
+
   for (var i = array.length - 1; i >= 0; i--) {
     _inversedArray.push(array[i]);
   };
+
+  console.timeEnd('reverseArray');
 
   return _inversedArray;
 }
@@ -34,9 +38,13 @@ function reverseArray(array) {
  */
 function reverseArrayInPlace(array) {
 
+  console.time('reverseArrayInPlace');
+
   for (var i = array.length - 1; i >= 0; i--) {
     array.push( array.splice(i, 1)[0] );
   };
+
+  console.timeEnd('reverseArrayInPlace');
 
   return array;
 }
@@ -47,3 +55,5 @@ console.log('Excercise #2');
 console.log('');
 
 console.log(reverseArrayInPlace([1,2,3,4,5,6]));
+console.log('');
+console.log(reverseArray([1,2,3,4,5,6]));
