@@ -15,7 +15,7 @@
 'use strict';
 
 /**
- * Inverse the order of elemnts of an array
+ * Inverse the order of elements of an array
  * @params {array} the array to inverse.
  */
 function reverseArray(array) {
@@ -28,8 +28,22 @@ function reverseArray(array) {
   return _inversedArray;
 }
 
+/**
+ * Inverse the order of elemnts of an array
+ * @params {array} the array to inverse.
+ */
+function reverseArrayInPlace(array) {
+
+  for (var i = array.length - 1; i >= 0; i--) {
+    array.push( array.splice(i, 1)[0] );
+  };
+
+  return array;
+}
+
+
 console.log('');
 console.log('Excercise #2');
 console.log('');
 
-console.log(reverseArray([1,2,3,4,5,6]));
+console.log(reverseArrayInPlace([1,2,3,4,5,6]));
