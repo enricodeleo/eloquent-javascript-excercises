@@ -61,7 +61,7 @@ function sum(numbers) {
 }
 
 console.log('');
-console.log('Excercise #3');
+console.log('Excercise #1');
 console.log('');
 
 console.log(sum(range(1, 10)));
