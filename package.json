@@ -1,0 +1,11 @@
+{
+  "name": "Eloquent Javascript Solutions",
+  "version": "1.0.0",
+  "description": "My solutions to excercises of the book 'Eloquent Javascript'",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js"
+  },
+  "author": "Enrico Deleo",
+  "license": "GPL3"
+}
