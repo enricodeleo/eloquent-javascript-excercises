@@ -1,5 +1,17 @@
+//
 // Excercise #1
 // pag. 41
+//
+// Write a loop that makes seven calls to console.log to output the following triangle:
+//
+// #
+// ##
+// ###
+// ####
+// #####
+// ######
+// #######
+//
 
 'use strict';
 
